@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/lib/SDL_image.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/lib" />
+		</Linker>
+		<Unit filename="5.PNG" />
+		<Unit filename="Capture.PNG" />
+		<Unit filename="SDL.dll" />
+		<Unit filename="SDL_image.dll" />
+		<Unit filename="bg.gif" />
+		<Unit filename="bg.png" />
+		<Unit filename="bg1.gif" />
+		<Unit filename="bg2.png" />
+		<Unit filename="bg4.png" />
+		<Unit filename="bg5.png" />
+		<Unit filename="bon_obj.png" />
+		<Unit filename="caisse.ico" />
+		<Unit filename="caisse.jpg" />
+		<Unit filename="caisse.png" />
+		<Unit filename="caisse_ok.jpg" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="constantes.h" />
+		<Unit filename="editeur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="editeur.h" />
+		<Unit filename="ffff.PNG" />
+		<Unit filename="fichiers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fichiers.h" />
+		<Unit filename="gfx1.gif" />
+		<Unit filename="howtoplay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="howtoplay.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="jeu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jeu.h" />
+		<Unit filename="jpeg.dll" />
+		<Unit filename="libjpeg-8.dll" />
+		<Unit filename="libpng13.dll" />
+		<Unit filename="libpng15-15.dll" />
+		<Unit filename="libtiff-5.dll" />
+		<Unit filename="libwebp-2.dll" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mario_bas.gif" />
+		<Unit filename="mario_droite.gif" />
+		<Unit filename="mario_gauche.gif" />
+		<Unit filename="mario_haut.gif" />
+		<Unit filename="mauv_obj.png" />
+		<Unit filename="menu.jpg" />
+		<Unit filename="mur.gif" />
+		<Unit filename="mur.jpg" />
+		<Unit filename="mur.png" />
+		<Unit filename="neutre_obj.png" />
+		<Unit filename="niveaux - Copie.txt" />
+		<Unit filename="niveaux.lvl" />
+		<Unit filename="objectif - Copie.png" />
+		<Unit filename="objectif.png" />
+		<Unit filename="rect.png" />
+		<Unit filename="ressources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="sdl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sdl.h" />
+		<Unit filename="test.cbp" />
+		<Unit filename="test.depend" />
+		<Unit filename="test.layout" />
+		<Unit filename="zlib1.dll" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
